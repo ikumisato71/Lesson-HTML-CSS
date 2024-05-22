@@ -1,0 +1,32 @@
+.decoration {
+  /* ここにCSSを書いていきます */
+  /* font-size: 48px; */
+  /* 16進数 
+  color: #ff0000;*/
+  color: rgb(225,0,0);
+  font-weight: bold;
+  font-family: "遊ゴシック体", "YuGothic", "遊ゴシック", "Yu Gothic";
+  font-style: italic;
+  line-height: 4.5;
+  letter-spacing: 1.5em;
+  text-decoration: underline;
+  text-decoration: line-through;
+  /* borderのプロパティの値にsolidを指定すると、実線になります */
+  border: solid 3px red;
+  /* borderのプロパティの値にdottedを指定すると点線になります */
+  border: dotted 3px red;
+  /* borderのプロパティの値にdottedを指定すると破線になります */
+  border: dashed 3px red;
+  /* borderのプロパティの値にdottedを指定すると二重線になります */
+  border: double 5px red;
+  border-top: solid 3px red;
+  border-bottom: dotted 3px blue;
+  border-left: dashed 3px blue;
+  border-right: double 3px gray;
+  background-color: red;
+  text-shadow: 1px 1px 2px gray;
+  text-align: center;
+  }
+  .text-bold{
+    font-weight: bold;
+  }
