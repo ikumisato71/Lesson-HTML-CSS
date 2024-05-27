@@ -19,6 +19,7 @@ a:active {
 .parent p:nth-of-type(4) {
   color: blue;
 }
+/* 指定をクラスとタグで変えた場合、なぜdivタグの時はaタグに指示が効かないのでしょうか？ */
 div :not(p) {
   color: orange;
 }
